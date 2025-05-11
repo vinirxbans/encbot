@@ -1,9 +1,9 @@
 services:
   - type: web
     name: telegram-bot
-    runtime: python
+    runtime: python-3.9.7
     buildCommand: pip install -r requirements.txt
-    startCommand: python bot.py
+    startCommand: Encoderbot.py
     envVars:
       - key: TOKEN
         value: "7390865838:AAFnrHEQs3URPB71QP8Wzn8iv9lyDEF84Qs"
